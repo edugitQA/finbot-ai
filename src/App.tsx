@@ -7,6 +7,7 @@ import Auth from "./pages/Auth";
 import Dashboard from "./pages/Dashboard";
 import Expenses from "./pages/Expenses";
 import Incomes from "./pages/Incomes";
+import WhatsApp from "./pages/WhatsApp";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/expenses" element={<Expenses />} />
           <Route path="/incomes" element={<Incomes />} />
+          <Route path="/whatsapp" element={<WhatsApp />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
